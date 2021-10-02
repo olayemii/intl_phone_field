@@ -259,7 +259,6 @@ class _IntlPhoneFieldState extends State<IntlPhoneField> {
                     if (this.mounted) setState(() {});
                   },
                 ),
-                SizedBox(height: 20),
                 Expanded(
                   child: ListView.builder(
                     shrinkWrap: true,
