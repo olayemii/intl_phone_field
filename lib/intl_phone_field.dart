@@ -315,6 +315,7 @@ class _IntlPhoneFieldState extends State<IntlPhoneField> {
   Widget build(BuildContext context) {
     return Row(
       children: <Widget>[
+        _buildFlagsButton(),
         Expanded(
           child: TextFormField(
             initialValue: widget.initialValue,
