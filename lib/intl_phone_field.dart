@@ -259,6 +259,7 @@ class _IntlPhoneFieldState extends State<IntlPhoneField> {
                     if (this.mounted) setState(() {});
                   },
                 ),
+                SizedBox(height: 20),
                 Expanded(
                   child: ListView.builder(
                     shrinkWrap: true,
@@ -315,7 +316,6 @@ class _IntlPhoneFieldState extends State<IntlPhoneField> {
     return Row(
       children: <Widget>[
         _buildFlagsButton(),
-        SizedBox(width: 8),
         Expanded(
           child: TextFormField(
             initialValue: widget.initialValue,
